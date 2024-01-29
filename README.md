@@ -35,7 +35,7 @@ cd path/to/videos
 Execute the `combine_videos.sh` script to concatenate your video files. Make sure to customize the script for your specific use case, specifying the correct output file:
 
 ```bash
-./combine_videos.sh
+bash ./combine_videos.sh
 ```
 
 The script will generate a dynamic `filelist.txt`, exclude empty video files, and use `ffmpeg` to combine the videos into a single output file.
