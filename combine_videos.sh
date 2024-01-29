@@ -11,8 +11,15 @@ else
   video_directory="$1"
 fi
 
-# Specify the output file
-output_file="output.mp4"
+# Specify the output file with a timestamp
+timestamp=$(date +"%Y%m%d_%H%M%S")
+output_file="output_${timestamp}.mp4"
+
+# Check if output file already exists, and if so, ignore
+if [ -e "$output_file" ]; then
+  echo "Error: Output file already exists. Aborting script."
+  exit 1
+fi
 
 # Change to the specified video directory
 cd "$video_directory" || exit
