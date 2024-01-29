@@ -22,15 +22,7 @@ If you're using Nix, you can enter the development environment to ensure consist
 nix develop
 ```
 
-### 3. Change the Videos Directory
-
-Before running the script, navigate to the directory containing your video files. You can use the `cd` command to change the current directory:
-
-```bash
-cd path/to/videos
-```
-
-### 4. Run the Script
+### 3. Run the Script
 
 Execute the `combine_videos.sh` script to concatenate your video files. Make sure to customize the script for your specific use case, specifying the correct output file:
 
