@@ -12,6 +12,7 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/byteshiva/video-concatenation-script.git
+cd video-concatenation-script
 ```
 
 ### 2. Enter the Development Environment (Optional)
